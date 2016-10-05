@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+.navbar {
+	font-family: "Raleway";
+    font-weight: 400;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #008040!important;
+    height: 65px !important; 
+	line-height: 32.5px !important;*/
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffffff!important;
+    background-color: #008040!important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+  
+body{
+	font-family: "Raleway";
+    font-weight: 400;
+    overflow-x: hidden;
+} 
+
+.opening { 
+     background-image: url(images/bck.jpg);
+    color: #ff8000 !important;
+}
+
+.center-text{
+	text-align: center; 	
+}  
+
+@media (min-width: 990px) {
+    .row-eq-height {
+  		display: -webkit-box;
+  		display: -webkit-flex;
+ 		display: -ms-flexbox;
+  		display: flex;
+	}
+	
+	.center-text{
+	position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
+  	text-align: left !important; 	
+	}  
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/bck2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
